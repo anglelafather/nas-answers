@@ -17,8 +17,8 @@
     </el-card>
       <el-row class="answers">
         <el-col :span="24">
-          <el-card>
-            <p v-for="o in 4" :key="o" class="text item">
+          <el-card v-for="o in 4" :key="o" class="card">
+            <p class="text item">
               {{'列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容 ' + o }}
             </p>
           </el-card>
@@ -49,7 +49,6 @@ export default {
 
 .item {
   margin-bottom: 18px;
-  border-bottom: 1px solid #DCDFE6;
   padding-bottom: 15px;
 }
 
@@ -68,5 +67,8 @@ i {
   margin-left: 18px;
   margin-bottom: 4px;
   vertical-align: bottom;
+}
+.card {
+  margin-bottom: 15px;
 }
 </style>
