@@ -3,7 +3,7 @@
     <h2 class='title'>如何看待XXXXXXXXX</h2>
     <vue-editor v-model="content"></vue-editor>
     <el-row>
-      <el-col :offset="12">
+      <el-col :offset="11">
         <el-button type="primary" class="button">提交答案</el-button>
       </el-col>
     </el-row>
@@ -14,7 +14,7 @@
 import { VueEditor } from 'vue2-editor'
 
 export default {
-  name: 'Add',
+  name: 'AddAnswer',
   data () {
     return {
       content: '<h1>content</h1>'

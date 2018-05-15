@@ -21,6 +21,7 @@
             <p class="text item">
               {{'列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容列表内容 ' + o }}
             </p>
+            <div class='time'>回答时间：2018年5月11号</div>
           </el-card>
         </el-col>
       </el-row>
@@ -49,7 +50,6 @@ export default {
 
 .item {
   margin-bottom: 18px;
-  padding-bottom: 15px;
 }
 
 .clearfix:before,
@@ -70,5 +70,12 @@ i {
 }
 .card {
   margin-bottom: 15px;
+}
+.time {
+  color: #909399;
+  border-top: 1px solid #E4E7ED;
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: right;
 }
 </style>

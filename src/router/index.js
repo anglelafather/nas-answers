@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/components/Index'
 import Search from '@/components/Search'
-import Add from '@/components/Add'
+import AddAnswer from '@/components/AddAnswer'
+import AddQuestion from '@/components/AddQuestion'
 import Detail from '@/components/Detail'
 
 Vue.use(Router)
@@ -25,9 +26,14 @@ export default new Router({
       component: Detail
     },
     {
-      path: '/add',
-      name: 'add',
-      component: Add
+      path: '/addAnswer',
+      name: 'AddAnswer',
+      component: AddAnswer
+    },
+    {
+      path: '/addQuestion',
+      name: 'AddQuestion',
+      component: AddQuestion
     }
   ]
 })
